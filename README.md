@@ -1,4 +1,4 @@
-# #. NAGY HAZI
+# 1. NAGY HAZI
 
 1. Feladat: dual_sort (40 pont)
 Készítsd el a dual_sort-h-ban a dual_sort implementációját a megadott keretrendszerben!
