@@ -65,7 +65,7 @@ std::vector<std::vector<int>> sort_2D(std::vector<int> v){
  */
 std::vector<std::vector<std::vector<int>>> sort_3D(std::vector<int> v) {
     dual_sort(v,v.size());
-    size_t matSizes=ceil(pow(v.size(),1.0/3))+1;
+    size_t matSizes=ceil(cbrt(v.size()))+1;
     std::vector<int> zeroV(matSizes, 0);
     std::vector<std::vector<int>> zeroM(matSizes, zeroV);
     std::vector<std::vector<std::vector<int>>> distanceM(matSizes,zeroM);
